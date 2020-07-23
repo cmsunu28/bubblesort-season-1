@@ -1,0 +1,21 @@
+// HUMAN CAPTCHA are u a roborg
+// pick the children's movie described by the code
+
+1:
+/(\bnemo\b)/g
+
+2: 
+cd ~/bound
+
+3: 
+~/alone
+
+4:
+co++
+
+5:
+toLowerCase(mermaid)
+
+6:
+import tensorflow as tf 
+t=tf.dragon();

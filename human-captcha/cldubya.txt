@@ -1,21 +1,21 @@
 // HUMAN CAPTCHA are u a roborg
 // pick the children's movie described by the code
 
-1:
+1: Finding Nemo
 /(\bnemo\b)/g
 
-2: 
+2: Homeward Bound
 cd ~/bound
 
-3: 
+3: Home Alone
 ~/alone
 
-4:
+4: Coco
 co++
 
-5:
+5: The Little Mermaid
 toLowerCase(mermaid)
 
-6:
+6: How To Train Your Dragon
 import tensorflow as tf 
 t=tf.dragon();

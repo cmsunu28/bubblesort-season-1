@@ -1,0 +1,7 @@
+// scores arbitrarily assigned by chefbrent
+
+the hurricane
+- guessing: full points
+- drawing: 0.75+1+1+2+2
+- total: 11.75 + 1 because of JitterTed = 12.75
+

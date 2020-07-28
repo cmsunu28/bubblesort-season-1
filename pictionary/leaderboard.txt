@@ -5,3 +5,5 @@ the hurricane
 - drawing: 0.75+1+1+2+2
 - total: 11.75 + 1 because of JitterTed = 12.75
 
+chatterbox coder
+- 

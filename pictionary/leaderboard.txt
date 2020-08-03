@@ -1,9 +1,11 @@
 // scores arbitrarily assigned by chefbrent
 
 the hurricane
-- guessing: full points
-- drawing: 0.75+1+1+2+2
+- guessing: full points = 5
+- drawing: 0.75+1+1+2+2 = 6.75
 - total: 11.75 + 1 because of JitterTed = 12.75
 
 chatterbox coder
-- 
+- guessing: 1
+- drawing: 1.75 + 1.5 + 2 + 1 + 2 + 1 = 9.25
+- total: 10.25

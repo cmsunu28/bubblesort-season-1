@@ -15,7 +15,7 @@
 2. ARR: Read each line you add in a pirate voice
 3. CARTOONISH: Change your font to comic sans
 4. BIG OR SMALL: Roll your D6. Change your font to 2x the result.
-5. 1000 DUCK-SIZED HORSES: Clap your hands every time you type a semicolon
+5. 1000 DUCK-SIZED HORSES: Clap your hands every time you type a tab
 6. ONE HORSE-SIZED DUCK: Say "Quack" every time you type a newline
 7. KEYBOARDIST: Disconnect your mouse
 8. COLORLESS: Remove highlighting

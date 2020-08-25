@@ -5,4 +5,5 @@
 
 console.log('This is the beginning of a very beautiful thing'); // megan speir
 console.log(`${new Date().toLocaleDateString()}: STARTING THE METHOD`); // signed by the HURRICANE!
-let nathanielsVariable = Math.floor(Math.random()*101);// Signedby Nathaniel Okenwa
+let nathanielsVariable = Math.floor(Math.random()*101);// Signed by Nathaniel Okenwa
+let bottlesOfBoba = `${nathanielsVariable} bottles of boba ordered`; // signed by @cassidoo

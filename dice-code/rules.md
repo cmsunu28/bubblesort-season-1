@@ -6,7 +6,7 @@
 - You can look stuff up on the internet, BUT
     - You must roll your d10 to determine which search result you will use. You may look at only that result.
     - You must run the code after you incorporate knowledge gained via search result
-- Each time you run your code, you must also roll your D20 for a disadvantage. Disadvantage table is below.
+- Each time you run your code, you must also roll your d10 for a disadvantage. Disadvantage table is below.
 - Chat can help at any time
 
 

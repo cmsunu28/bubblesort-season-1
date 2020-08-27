@@ -1,0 +1,57 @@
+{
+  "name": "nfl-team-names",
+  "version": "0.0.0-semantically-released",
+  "description": "Get random NFL team names",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist && mkdir dist",
+    "build": "babel src/index.js -o dist/index.js",
+    "postbuild": "cp src/nfl-team-names.json dist/nfl-team-names.json",
+    "commit": "git-cz",
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "test": "mocha src/index.test.js -w --compilers js:babel/register",
+    "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js --compilers js:babel/register",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtheoryx/nfl-team-names.git"
+  },
+  "keywords": [
+    "random",
+    "nfl",
+    "team",
+    "teams",
+    "name",
+    "names"
+  ],
+  "author": "David R Poindexter III <drpoindexter@gmail.com> (http://vcard.davidrpoindexter.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtheoryx/nfl-team-names/issues"
+  },
+  "homepage": "https://github.com/mtheoryx/nfl-team-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "babel": "5.8.21",
+    "chai": "3.3.0",
+    "codecov.io": "0.1.6",
+    "commitizen": "1.0.4",
+    "cz-conventional-changelog": "1.1.2",
+    "ghooks": "0.3.2",
+    "istanbul": "0.3.22",
+    "mocha": "2.3.3",
+    "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run test:single && npm run check-coverage"
+    }
+  }
+}

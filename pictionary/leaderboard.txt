@@ -18,3 +18,10 @@ cassidoo
 - guessing: 5
 - drawing: 2 + 2 + 2 + 1.5 + 2
 - total: 14.5
+- retroactive bonus: 5
+- 19.5
+
+roberttables
+- guessing: 5 (technical difficulties)
+- drawing: 1.25 + 1.5 + 2 + 0.5 + 2
+- total: 12.25

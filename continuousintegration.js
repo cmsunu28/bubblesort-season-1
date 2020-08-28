@@ -10,3 +10,4 @@ console.log(`${new Date().toLocaleDateString()}: STARTING THE METHOD`); // signe
 let nathanielsVariable = Math.floor(Math.random()*101);// Signed by Nathaniel Okenwa
 let bottlesOfBoba = `${nathanielsVariable} bottles of boba ordered`; // signed by @cassidoo
 console.log(`You rolled A: ${Math.floor(Math.random()*19) + 1} on your shipment. Good Luck.`); // signed by @roberttables
+// ^^ this is a d19

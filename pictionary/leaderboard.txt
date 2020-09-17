@@ -25,3 +25,6 @@ roberttables
 - guessing: 5 (technical difficulties)
 - drawing: 1.25 + 1.5 + 2 + 0.5 + 2
 - total: 12.25
+
+phil_nash
+- random point assignment: 6.73 / 10

@@ -12,3 +12,6 @@ let bottlesOfBoba = `${nathanielsVariable} bottles of boba ordered`; // signed b
 console.log(`You rolled A: ${Math.floor(Math.random()*19) + 1} on your shipment. Good Luck.`); // signed by @roberttables
 // ^^ this is a d19
 console.log('You got that Coderitis!') // signed by @TimirahJ
+if (nathanielsVariable > 50) { // What up, it's @phil_nash here with a conditional for you
+
+}  
